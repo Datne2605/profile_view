@@ -22,7 +22,7 @@ class _ProfileViewState extends State<ProfileView> {
   final step2FormKey = GlobalKey<FormState>();
 
   int currentStep = 0;
-  UserInfo userInfo = UserInfo();
+  UserInfo userInfo = UserInfo () ;
 
   bool isLoaded = false;
 
